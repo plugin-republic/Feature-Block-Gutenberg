@@ -1,0 +1,61 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+.wp-block-gfblocks-feature-block {
+	position: relative;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.gfblocks-block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+    width: 100%;
+	padding: 1rem;
+}
+.wp-block-gfblocks-feature-block.gfblocks-cols-2 .gfblocks-block {
+	-webkit-flex: 0 1 50%;
+	-ms-flex: 0 1 50%;
+	flex: 0 1 50%;
+}
+.wp-block-gfblocks-feature-block .gfblocks-feature-image {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.gfblocks-feature-image img {
+	width: auto;
+	max-height: 150px;
+}
+.wp-block-gfblocks-feature-block.gfblocks-cols-1 .gfblocks-block-2 {
+    display: none;
+	visibility: hidden;
+}
+.wp-block-gfblocks-feature-block .gfblocks-feature-content {
+	padding: 0 1rem;
+	box-sizing: border-box;
+}
+.wp-block-gfblocks-feature-block .gfblocks-feature-image button {
+	margin: 0 auto;
+}
+.wp-block-gfblocks-feature-block .gfblocks-feature-image button.image-button {
+	line-height: 0;
+	padding: 0px;
+}
+.wp-block-gfblocks-feature-block .gfblocks-feature-image button.image-button img {
+	margin: 0;
+}
